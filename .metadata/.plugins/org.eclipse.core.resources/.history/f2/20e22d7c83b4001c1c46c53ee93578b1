@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class rollingDice {
+
+	public static void main(String[] args) {
+	
+	System.out.println("Welcome to the Grand Circus Casino!");
+	System.out.println("How many sides do you want each dice to have?");
+	Scanner scnr = new Scanner(System.in);
+	int choice = scnr.nextInt();
+	
+	System.out.println("Ok, each dice will have " + choice + " sides.");
+	System.out.println("Roll 1:");
+	}
+
+}

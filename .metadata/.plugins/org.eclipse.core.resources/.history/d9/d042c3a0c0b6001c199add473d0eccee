@@ -4,7 +4,7 @@ public class rollingDice {
 
 	public static void main(String[] args) {
 	System.out.println("Welcome to the Grand Circus Casino!");
-	generateRandomDieRoll(0);
+	generateRandomDieRoll(4);
 	}
 	public static void generateRandomDieRoll (int a) {
 		char cont;
